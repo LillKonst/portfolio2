@@ -20,7 +20,7 @@ export default function MainImage() {
           <h3 className="absolute -top-6 md:-top-8 left-1 xs:text-xl md:text-3xl lg:text-3xl tracking-wide text-customBlue">
             FRONTEND DEVELOPER
           </h3>
-          <h1 className="xs:text-2xl md:text-5xl lg:text-7xl font-bold text-customGray">
+          <h1 className="xs:text-2xl md:text-5xl lg:text-6xl font-bold text-customGray">
             LILL-KRISTINE KONST
           </h1>
         </div>

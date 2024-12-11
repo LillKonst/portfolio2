@@ -1,6 +1,6 @@
 import holidazeImg from "../../../images/holidaze-screenshot.png";
 
-export default function HolidazeCard() {
+export default function BiddingsCard() {
   return (
     <div className="w-full h-full rounded-lg bg-customWhite m-2 -mb-1">
       <div className="w-full h-3/6 rounded-lg">

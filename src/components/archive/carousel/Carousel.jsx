@@ -2,12 +2,14 @@ import HolidazeCard from "../holidaze-card/HolidazeCard";
 import holidazeImg from "../../../images/holidaze-screenshot.png";
 import essentialsImg from "../../../images/essentials-screenshot.png";
 import biddingsImg from "../../../images/biddings-screenshot.png";
+import EssentailsCard from "../essentials-card/EssentialsCard";
+import BiddingsCard from "../biddings-card/BiddingsCard";
 
 export default function Carousel() {
   return (
-    <div className="flex gap-8">
+    <div className="flex flex-col lg:flex-row gap-8">
       <div>
-        <ul className="flex flex-col gap-4 items-start">
+        <ul className="flex lg:flex-col gap-4 items-start">
           <li className="w-64 h-36">
             <img
               src={holidazeImg}
@@ -33,6 +35,8 @@ export default function Carousel() {
       </div>
       <div>
         <HolidazeCard />
+        <EssentailsCard />
+        <BiddingsCard />
       </div>
     </div>
   );

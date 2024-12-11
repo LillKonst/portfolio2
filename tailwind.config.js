@@ -9,6 +9,10 @@ export default {
         customBlue: "#5492AC",
         customGray: "#C7CECF",
       },
+      screens: {
+        xxs: "400px",
+        xs: "500px",
+      },
     },
   },
   plugins: [],

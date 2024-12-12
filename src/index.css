@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @font-face {
   font-family: "BrunoAce";
   src: url("../public/fonts/Bruno_Ace/BrunoAce-Regular.ttf");
@@ -17,10 +16,16 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "PlexSerif";
+  src: url("../public/fonts/IBM_Plex_Serif/IBMPlexSerif-Regular.ttf");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 h1 {
   font-family: "BrunoAce";
 }
-
 
 h2,
 h3,
@@ -29,6 +34,9 @@ div {
   font-family: "PlexMono";
 }
 
+p {
+  font-family: "PlexSerif";
+}
 
 html body {
   width: 100%;
@@ -36,7 +44,7 @@ html body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  background-color: #060B0E;
+  background-color: #060b0e;
 }
 
 .clip-triangle {

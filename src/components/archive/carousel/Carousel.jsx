@@ -4,39 +4,54 @@ import essentialsImg from "../../../images/essentials-screenshot.png";
 import biddingsImg from "../../../images/biddings-screenshot.png";
 import EssentailsCard from "../essentials-card/EssentialsCard";
 import BiddingsCard from "../biddings-card/BiddingsCard";
+import { useState } from "react";
 
 export default function Carousel() {
+  const [selectedCard, setSelectedCard] = useState("holidaze");
+
   return (
-    <div className="flex flex-col lg:flex-row gap-8">
-      <div>
-        <ul className="flex lg:flex-col gap-4 items-start">
-          <li className="w-64 h-36">
+    <div className="grid grid-cols-6 grid-rows-3 gap-12">
+      <div className="w-full col-span-6 row-span-1 lg:col-span-2 lg:row-span-3 gap-4 lg:me-10">
+        <div className="w-full flex lg:flex-col">
+          <button
+            onClick={() => setSelectedCard("holidaze")}
+            className="w-full aspect-w-5 aspect-h-3 m-2"
+          >
             <img
               src={holidazeImg}
               alt="img of the holidaze homepage"
-              className="w-full h-full object-cover m-2 cursor-pointer rounded"
+              className="w-full h-full object-cover cursor-pointer rounded"
             />
-          </li>
-          <li className="w-64 h-36">
+          </button>
+
+          <button
+            onClick={() => setSelectedCard("essentials")}
+            className="w-full aspect-w-5 aspect-h-3 m-2"
+          >
             <img
               src={essentialsImg}
               alt="img of the holidaze homepage"
-              className="w-full h-full object-cover m-2 cursor-pointer rounded"
+              className="w-full h-full object-cover cursor-pointer rounded"
             />
-          </li>
-          <li className="w-64 h-36">
+          </button>
+
+          <button
+            onClick={() => setSelectedCard("biddings")}
+            className="w-full aspect-w-5 aspect-h-3 m-2"
+          >
             <img
               src={biddingsImg}
               alt="img of the holidaze homepage"
-              className="w-full h-full object-cover m-2 cursor-pointer rounded"
+              className="w-full h-full object-cover cursor-pointer rounded"
             />
-          </li>
-        </ul>
+          </button>
+        </div>
       </div>
-      <div>
-        <HolidazeCard />
-        <EssentailsCard />
-        <BiddingsCard />
+
+      <div className=" col-span-6 row-span-2 lg:col-span-4 lg:row-span-3 mx-2">
+        {selectedCard === "holidaze" && <HolidazeCard />}
+        {selectedCard === "essentials" && <EssentailsCard />}
+        {selectedCard === "biddings" && <BiddingsCard />}
       </div>
     </div>
   );

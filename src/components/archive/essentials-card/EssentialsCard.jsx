@@ -11,7 +11,7 @@ export default function EssentailsCard() {
         />
       </div>
       <h4 className="text-customBlack p-2 text-center font-semibold">
-        HOLIDAZE
+        ESSENTIALS
       </h4>
       <p className="text-customBlack px-5 py-1">
         Holidaze is a website where you can book venues for your next vacation

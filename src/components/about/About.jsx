@@ -10,8 +10,8 @@ export default function About() {
         <div className="flex flex-col-reverse items-center lg:flex-row lg:items-stretch gap-8 mt-4">
           <div className="w-full lg:flex-3 lg:w-3/5 xl:flex-4 xl:w-4/6 flex-col gap-4 flex-shrink-0">
             <p className="mb-4 xl:text-xl">
-              <span className="font-semibold">Hi there!</span> I'm Lill, a
-              frontend developer based in Oslo, Norway. I love transforming
+              <span className="font-semibold">Hi there!</span> My name is Lill,
+              a frontend developer based in Oslo, Norway. I love transforming
               ideas into visually appealing, user-friendly, and functional
               applications. My goal is to contribute to shaping a more
               harmonious way of interacting with the ever-evolving web.

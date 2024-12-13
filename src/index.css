@@ -11,10 +11,17 @@
 
 @font-face {
   font-family: "PlexMono";
-  src: url("../public/fonts/IBM_Plex_Mono/IBMPlexMono-Regular.ttf");
+  src: url("../public/fonts/IBM_Plex_Mono/IBMPlexMono-Medium.ttf");
   font-weight: 100 900;
   font-style: normal;
 }
+
+/* @font-face {
+  font-family: "PlexMono";
+  src: url("../public/fonts/IBM_Plex_Mono/IBMPlexMono-SemiBold.ttf");
+  font-weight: 100 900;
+  font-style: normal;
+} */
 
 @font-face {
   font-family: "PlexSerif";

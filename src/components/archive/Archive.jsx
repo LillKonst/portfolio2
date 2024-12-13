@@ -1,4 +1,4 @@
-import Carousel from "./carousel/Carousel";
+import CardCollection from "./cardCollection/CardCollection";
 
 export default function Archive() {
   return (
@@ -9,7 +9,7 @@ export default function Archive() {
       <h3 className="text-md">This is some of my recent projects</h3>
 
       <div className="w-full flex justify-center my-10">
-        <Carousel />
+        <CardCollection />
       </div>
     </div>
   );

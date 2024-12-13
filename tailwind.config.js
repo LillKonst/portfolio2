@@ -8,8 +8,11 @@ export default {
       colors: {
         customBlack: "#060B0E",
         customWhite: "#F9FDFF",
-        customBlue: "#5492AC",
         customGray: "#C7CECF",
+        customBlue: {
+          DEFAULT: "#5492AC",
+          dark: "#162B38",
+        },
       },
       screens: {
         xxs: "400px",

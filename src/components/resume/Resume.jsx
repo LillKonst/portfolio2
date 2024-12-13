@@ -31,6 +31,12 @@ export default function Resume() {
           </div>
         </div>
         <div>
+          <h3 className="text-2xl font-semibold mb-3">WORK EXPERIENCE</h3>
+          <div>
+            <p>Work Experience will come here</p>
+          </div>
+        </div>
+        <div>
           <h3 className="text-2xl font-semibold mb-3">SKILLS</h3>
           <div className="grid grid-cols-2 xxs:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 xl:grid-cols-9 gap-4">
             <Html />
@@ -40,12 +46,6 @@ export default function Resume() {
             <Bootstrap />
             <Tailwind />
             <Figma />
-          </div>
-        </div>
-        <div>
-          <h3 className="text-2xl font-semibold mb-3">WORK EXPERIENCE</h3>
-          <div>
-            <p>Work Experience will come here</p>
           </div>
         </div>
       </div>

@@ -28,10 +28,30 @@ export default function Header() {
     };
   }, []);
 
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      const headerOffset = 10;
+      const elementPosition =
+        element.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = elementPosition - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <div className="fixed top-0 right-0 left-0 md:w-9/12 mx-auto z-50 h-[90px] px-3 xxs:px-6 py-5 bg-customBlack/70 md:bg-transparent">
-      <div className="flex md:bg-customBlack/70 rounded-full md:p-3">
-        <img src={logo} alt="Logo" className="h-[55px] p-2" />
+      <div className="flex md:bg-customBlack/70 rounded-full md:px-3 cursor-pointer">
+        <img
+          src={logo}
+          alt="Logo"
+          className="h-[55px] p-2"
+          onClick={() => scrollToSection("mainImg")}
+        />
 
         <button
           className=" ms-auto me-6 z-20 p-2 rounded-xl bg-customBlue/60 text-customWhite md:hidden"

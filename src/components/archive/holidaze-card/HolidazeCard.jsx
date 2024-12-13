@@ -2,7 +2,7 @@ import holidazeImg from "../../../images/holidaze-screenshot.png";
 
 export default function HolidazeCard() {
   return (
-    <div className="col-span-6 lg:col-span-2 w-full h-full rounded-lg bg-customBlue-dark flex flex-col">
+    <div className="col-span-6 lg:col-span-2 w-full h-full rounded-lg bg-customBlue-dark flex flex-col transition-transform duration-300 ease-out hover:scale-105">
       <div className="p-4">
         <div className="rounded-lg w-full aspect-w-5 aspect-h-3 ">
           <img

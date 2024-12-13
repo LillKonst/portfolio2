@@ -1,6 +1,16 @@
+import "aos/dist/aos.css";
+import AOS from "aos";
+import { useEffect } from "react";
+
 export default function Contact() {
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
   return (
-    <div className="w-9/12 my-12 py-12 text-customWhite h-screen">
+    <div
+      className="w-9/12 my-12 py-12 text-customWhite h-screen "
+      data-aos="slide-up"
+    >
       <div className="w-full border-b-2 border-customBlue">
         <h2 className="text-6xl">CONTACT</h2>
       </div>

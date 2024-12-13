@@ -18,7 +18,7 @@ import Contact from "../../components/contact/Contact";
 
 export default function Home() {
   return (
-    <div className="flex flex-col items-center">
+    <div id="mainImg" className="flex flex-col items-center">
       <MainImage />
       <div id="archive" className="w-full flex justify-center">
         <Archive />

@@ -1,12 +1,12 @@
 import github from "../../images/github.svg";
 import linkedin from "../../images/linkedin.svg";
-import Html from "./skills-cards/html/Html";
 import CSS from "./skills-cards/css/CSS";
 import JS from "./skills-cards/js/JS";
 import React from "./skills-cards/react/React";
 import Bootstrap from "./skills-cards/bootstrap/Bootstrap";
 import Tailwind from "./skills-cards/tailwind/Tailwind";
 import Figma from "./skills-cards/figma/Figma";
+import SkillHTML from "./skills-cards/html/SkillHTML";
 
 export default function Resume() {
   return (
@@ -39,7 +39,7 @@ export default function Resume() {
         <div>
           <h3 className="text-2xl font-semibold mb-3">SKILLS</h3>
           <div className="grid grid-cols-2 xxs:grid-cols-3 md:grid-cols-4 lg:grid-cols-7 xl:grid-cols-9 gap-4">
-            <Html />
+            <SkillHTML />
             <CSS />
             <JS />
             <React />

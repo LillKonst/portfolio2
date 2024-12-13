@@ -21,8 +21,8 @@ export default function About() {
         <div className="w-full border-b-2 border-customBlue">
           <h2 className="text-6xl">ABOUT</h2>
         </div>
-        <div className="flex flex-col-reverse items-center lg:flex-row lg:items-stretch gap-8 mt-4">
-          <div className="w-full lg:flex-3 lg:w-3/5 xl:flex-4 xl:w-4/6 flex-col gap-4 flex-shrink-0">
+        <div className="flex flex-col-reverse items-center lg:flex-row lg:items-stretch mt-4">
+          <div className="w-full lg:flex-3 lg:w-3/5 xl:flex-4 xl:w-4/6 flex-col gap-4 flex-shrink-0 lg:pe-2">
             <p className="mb-4 xl:text-xl">
               <span className="font-semibold">Hi there!</span> My name is Lill,
               a frontend developer based in Oslo, Norway. I love transforming
@@ -81,7 +81,7 @@ export default function About() {
               </button>
             </div>
           </div>
-          <div className="w-full lg:flex-2 lg:w-2/5 xl:flex-2 xl:w-2/6 flex-shrink-0">
+          <div className="w-full lg:flex-2 lg:w-2/5 xl:flex-2 xl:w-2/6 flex-shrink-0 lg:ps-2 mb-4">
             <img
               src={profileImg}
               alt="Image of Lill-Kristine Konst"

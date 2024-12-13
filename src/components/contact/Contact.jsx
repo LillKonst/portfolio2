@@ -14,14 +14,23 @@ export default function Contact() {
       <div className="w-full border-b-2 border-customBlue">
         <h2 className="text-6xl">CONTACT</h2>
       </div>
-      <h3 className="text-md">
-        I’d love to hear from you! You are welcome to contact me either by phone
-        or email.
-      </h3>
+      <h3 className="text-md">My contact info</h3>
 
-      <div className="w-full flex flex-col items-center justify-center my-10">
+      <div className="max-w-[600px] mt-12 flex flex-col justify-self-center text-center gap-4 my-10 bg-customBlue-dark p-10 rounded-2xl">
+        <h4 className=" mb-10 text-xl">I would love to hear from you!</h4>
+        <p className="text-lg">
+          If you find my projects interessting and/or would like more
+          information about my services, I can be reached by email and will
+          normally respond within 24hours.{" "}
+        </p>
+
+        <p>
+          Email:
+          <span className="text-red-500"> konstlillkristine@gmail.com</span>
+        </p>
+
+        <p className="text-xl">Looking forward to hear from you! </p>
         <p>Lill-Kristine Konst</p>
-        <p>konstlillkristine@gmail.com</p>
       </div>
     </div>
   );

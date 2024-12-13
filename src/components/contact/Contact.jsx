@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="w-9/12 my-12 py-12 text-customWhite">
+    <div className="w-9/12 my-12 py-12 text-customWhite h-screen">
       <div className="w-full border-b-2 border-customBlue">
         <h2 className="text-6xl">CONTACT</h2>
       </div>

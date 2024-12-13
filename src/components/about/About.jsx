@@ -1,6 +1,20 @@
 import profileImg from "../../images/profile-lill.jpg";
 
 export default function About() {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      const headerOffset = 10;
+      const elementPosition =
+        element.getBoundingClientRect().top + window.scrollY;
+      const offsetPosition = elementPosition - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <div className="w-full bg-customWhite flex flex-col items-center">
       <div className="w-9/12 my-12 py-12 text-customBlack">
@@ -33,7 +47,10 @@ export default function About() {
               meaningful impact in the tech world.
             </p>
             <div className="flex w-full gap-8 justify-between xl:mt-12">
-              <button className="w-full py-4 px-5 flex justify-center items-center bg-customBlue text-customWhite rounded-md gap-2">
+              <button
+                onClick={() => scrollToSection("archive")}
+                className="w-full py-4 px-5 flex justify-center items-center bg-customBlue text-customWhite rounded-md gap-2"
+              >
                 ARCHIVE
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -46,7 +63,10 @@ export default function About() {
                   <path d="m7.247 4.86-4.796 5.481c-.566.647-.106 1.659.753 1.659h9.592a1 1 0 0 0 .753-1.659l-4.796-5.48a1 1 0 0 0-1.506 0z" />
                 </svg>
               </button>
-              <button className="w-full py-4 px-5 flex justify-center items-center bg-customBlue text-customWhite rounded-md gap-2">
+              <button
+                onClick={() => scrollToSection("contact")}
+                className="w-full py-4 px-5 flex justify-center items-center bg-customBlue text-customWhite rounded-md gap-2"
+              >
                 CONTACT
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -101,7 +101,7 @@ import AOS from "aos";
 import { useState, useEffect } from "react";
 
 export default function About() {
-  const [isInView, setIsInView] = useState(false);
+  const [isInView] = useState(false);
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id);

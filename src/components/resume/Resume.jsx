@@ -1,6 +1,6 @@
 import github from "../../images/github.svg";
 import linkedin from "../../images/linkedin.svg";
-import Html from "./skills-cards/html/html";
+import Html from "./skills-cards/html/Html";
 import CSS from "./skills-cards/css/CSS";
 import JS from "./skills-cards/js/JS";
 import React from "./skills-cards/react/React";

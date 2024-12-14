@@ -18,12 +18,22 @@ export default function EssentailsCard() {
         cart, search individual products and checkout cart. Built with React.
       </p>
       <div className="flex gap-4 p-3 mt-auto">
-        <button className="w-full py-2 px-3 flex justify-center items-center bg-customBlue text-customWhite rounded-md gap-2">
+        <a
+          href="https://github.com/LillKonst/js-frameworks-ca/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full py-2 px-3 flex justify-center items-center bg-customBlue text-customWhite rounded-md gap-2 text-center transition-transform duration-300 hover:scale-105"
+        >
           GITHUB
-        </button>
-        <button className="w-full py-2 px-3 flex justify-center items-center bg-customBlue text-customWhite rounded-md gap-2">
+        </a>
+        <a
+          href="https://essentials-ecom.netlify.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full py-2 px-3 flex justify-center items-center bg-customBlue text-customWhite rounded-md gap-2 text-center transition-transform duration-300 hover:scale-105"
+        >
           NETLIFY
-        </button>
+        </a>
       </div>
     </div>
   );

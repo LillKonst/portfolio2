@@ -8,7 +8,7 @@ export default function Contact() {
   }, []);
   return (
     <div
-      className="w-9/12 my-12 py-12 text-customWhite h-screen "
+      className="w-11/12 sm:w-10/12 md:w-9/12 mt-12 pt-6 text-customWhite h-screen "
       data-aos="slide-up"
     >
       <div className="w-full border-b-2 border-customBlue">
@@ -21,7 +21,7 @@ export default function Contact() {
         <p className="text-lg">
           If you find my projects interessting and/or would like more
           information about my services, I can be reached by email and will
-          normally respond within 24hours.{" "}
+          normally respond within 24hours.
         </p>
 
         <p>

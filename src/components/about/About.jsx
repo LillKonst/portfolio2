@@ -95,14 +95,12 @@
 //   );
 // }
 
-import profileImg from "../../images/profile-lill.jpg";
+import aboutImg from "../../images/about-img.jpg";
 import "aos/dist/aos.css";
 import AOS from "aos";
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 export default function About() {
-  const [isInView] = useState(false);
-
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -128,17 +126,15 @@ export default function About() {
       className="w-full bg-customBlue-dark flex flex-col items-center shadow-inner border-t-4 border-customBlue-dark"
     >
       <div
-        className="w-9/12 my-12 py-12 text-customWhite"
-        data-aos={isInView ? "slide-up" : ""}
+        className="w-11/12 sm:w-10/12 md:w-9/12 mt-12 pt-6 text-customWhite"
+        data-aos="slide-up"
       >
         <div className="w-full border-b-2 border-customBlue">
           <h2 className="text-6xl">ABOUT</h2>
         </div>
-        <div
-          className="flex flex-col-reverse items-center lg:flex-row lg:items-stretch mt-6"
-          data-aos={isInView ? "slide-up" : ""}
-        >
-          <div className="w-full lg:flex-3 lg:w-3/5 xl:flex-4 xl:w-4/6 flex-col gap-4 flex-shrink-0 lg:pe-2">
+        <h3 className="text-md">She/her</h3>
+        <div className="flex flex-col items-center mt-6" data-aos="slide-up">
+          <div className="w-full flex flex-col gap-4">
             <p className="mb-4 xl:text-xl">
               <span className="font-semibold">Hi there!</span> My name is Lill,
               a frontend developer based in Oslo, Norway. I love transforming
@@ -149,12 +145,10 @@ export default function About() {
             <p className="mb-4 xl:text-xl">
               Before diving into tech, I spent eight years as a professional
               dancer and dance teacher, a journey that taught me discipline,
-              adaptability, and creative problem-solving.
-            </p>
-            <p className="mb-4 xl:text-xl">
-              A decade in Oslo inspired a move to a tiny house on wheels, where
-              living close to nature fuels my creativity and helps me maintain a
-              healthy work-life balance.
+              adaptability, and creative problem-solving. A decade in Oslo
+              inspired a move to a tiny house on wheels, where living close to
+              nature fuels my creativity and helps me maintain a healthy
+              work-life balance.
             </p>
             <p className="mb-4 xl:text-xl">
               In December 2024, I graduated from a two-year frontend development
@@ -162,7 +156,7 @@ export default function About() {
               creativity and dedication to this new career path and make a
               meaningful impact in the tech world.
             </p>
-            <div className="flex w-full gap-8 justify-between xl:mt-12">
+            <div className="flex w-full gap-8 justify-between ">
               <button
                 onClick={() => scrollToSection("archive")}
                 className="w-full py-4 px-5 flex justify-center items-center bg-customBlue text-customWhite rounded-md gap-2 shadow-lg transition-transform duration-300 ease-out hover:scale-105"
@@ -197,12 +191,9 @@ export default function About() {
               </button>
             </div>
           </div>
-          <div
-            className="w-full lg:flex-2 lg:w-2/5 xl:flex-2 xl:w-2/6 flex-shrink-0 lg:ps-2 mb-4"
-            data-aos={isInView ? "slide-left" : ""}
-          >
+          <div className="w-full flex mt-10" data-aos="slide-up">
             <img
-              src={profileImg}
+              src={aboutImg}
               alt="Image of Lill-Kristine Konst"
               className="w-full h-full object-cover rounded shadow-lg"
             />

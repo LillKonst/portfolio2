@@ -18,12 +18,22 @@ export default function BiddingsCard() {
         with Vanilla JS and Bootstrap.
       </p>
       <div className="flex gap-4 p-3 mt-auto">
-        <button className="w-full py-2 px-3 flex justify-center items-center bg-customBlue text-customWhite rounded-md gap-2">
+        <a
+          href="https://github.com/LillKonst/semester-project-2"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full py-2 px-3 flex justify-center items-center bg-customBlue text-customWhite rounded-md gap-2 text-center transition-transform duration-300 hover:scale-105"
+        >
           GITHUB
-        </button>
-        <button className="w-full py-2 px-3 flex justify-center items-center bg-customBlue text-customWhite rounded-md gap-2">
+        </a>
+        <a
+          href="https://biddings.netlify.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full py-2 px-3 flex justify-center items-center bg-customBlue text-customWhite rounded-md gap-2 text-center transition-transform duration-300 hover:scale-105"
+        >
           NETLIFY
-        </button>
+        </a>
       </div>
     </div>
   );

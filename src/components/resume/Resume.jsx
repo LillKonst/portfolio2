@@ -80,13 +80,12 @@ export default function Resume() {
               </p>
 
               <p>
-                2012 | Danser, Disco Divas and a Disco Duck, City Scene
-                Fredrikstad, produsent Gusty Utterdahl
-              </p>
-
-              <p>
                 2018 | Danser og koreograf, Div show og event jobber,
                 Extravadanza/Divine, Unique Events
+              </p>
+              <p>
+                2012 | Danser, Disco Divas and a Disco Duck, City Scene
+                Fredrikstad, produsent Gusty Utterdahl
               </p>
             </div>
           ) : (

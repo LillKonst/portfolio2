@@ -46,11 +46,11 @@ export default function Resume() {
                 Scenehuset, SHE Heels Company
               </p>
               <p>
-                2023 | Dancer and choreographer, IDYLL Festivalen, Eventshow{" "}
+                2023 | Dancer and choreographer, IDYLL Festivalen, Eventshow
               </p>
               <p>
-                2021 - 2023 | Danser og koreograf, various events, Eventshow,
-                SHE Heels Company
+                2021 - 2023 | Dancer and choreographer, various events,
+                Eventshow, SHE Heels Company
               </p>
               <p>
                 2022 | Dancer, Queen Bees, Musicvideo, Anna-Lisa Kumoji,

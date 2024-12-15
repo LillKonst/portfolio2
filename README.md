@@ -21,10 +21,6 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Getting started
-To get a closer look at this website you can 
-1. Clone my github repo: https://github.com/LillKonst/portfolio2 
-2. Open website with the Netlify app using this link: https://lillkonst-portfolio.netlify.app/
 
 ## Getting Started
 ### Installing
@@ -40,7 +36,10 @@ To get a closer look at this website you can
 ###Running
 To run the app, run the following commands:
 
-<pre> npm run start </pre>
+<pre> npm run dev </pre>
+
+### You can also: 
+ Open website with the Netlify app using this link: https://lillkonst-portfolio.netlify.app/
 
 
 ## Contact 

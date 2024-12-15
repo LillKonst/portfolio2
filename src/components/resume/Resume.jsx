@@ -42,50 +42,55 @@ export default function Resume() {
               </p>
 
               <p>
-                2024 | Danser og koreograf «Layers», She X GentsHub at
+                2024 | Dancer and choreographer «Layers», She X GentsHub at
                 Scenehuset, SHE Heels Company
               </p>
-              <p>2023 | Danser og koreograf, IDYLL Festivalen, Eventshow </p>
               <p>
-                2021 - 2023 | Danser og koreograf, diverse eventer, Eventshow,
+                2023 | Dancer and choreographer, IDYLL Festivalen, Eventshow{" "}
+              </p>
+              <p>
+                2021 - 2023 | Danser og koreograf, various events, Eventshow,
                 SHE Heels Company
               </p>
-              <p>2022 | Danser, Queen Bees, Musikkvideo, Anna-Lisa Kumoji</p>
-
               <p>
-                2022 | Danser og koreograf «Layers», Oslo Jazzdans Festival, SHE
-                Heels Company
-              </p>
-              <p>
-                2021 | Danser, Kristiania Magiske Tivolitheater, Monster
-                Scripted/NRK, koreografi: Sandra Gerecke
+                2022 | Dancer, Queen Bees, Musicvideo, Anna-Lisa Kumoji,
+                Coreography: Vilde Skorstad
               </p>
 
               <p>
-                2021 Danser, Beat Diabetes Aksjonen TV3, Miss Li «Starkare»,
-                Koreograf: Henni Olsen
+                2022 | Dancer and choreographer «Layers», Oslo Jazzdans
+                Festival, SHE Heels Company
               </p>
               <p>
-                2021 Danser og koreograf, konsert, Global Musikkfest Halden,
-                Royane
+                2021 | Dancer, Kristiania Magiske Tivolitheater, Monster
+                Scripted/NRK, Coreography: Sandra Gerecke
               </p>
 
               <p>
-                2016 | Danser for Robin og Bugge, Norges største after
+                2021 | Dancer, Beat Diabetes Aksjonen TV3, Miss Li «Starkare»,
+                Coreography: Henni Olsen
+              </p>
+              <p>
+                2021 | Dancer and choreographer, konsert, Global Musikkfest
+                Halden, Royane
+              </p>
+
+              <p>
+                2016 | Dancer for Robin og Bugge, Norges største after
                 ski-konsert, Oslo Spektrum
               </p>
               <p>
-                2015 | Danser, Swinging Christmas, Chat Noir, produsent Gusty
-                Utterdahl og Tom Sterri
+                2015 | Dancer, Swinging Christmas, Chat Noir, producer: Gusty
+                Utterdahl and Tom Sterri
               </p>
 
               <p>
-                2018 | Danser og koreograf, Div show og event jobber,
+                2018 | Dancer and choreographer, Various shows and events,
                 Extravadanza/Divine, Unique Events
               </p>
               <p>
-                2012 | Danser, Disco Divas and a Disco Duck, City Scene
-                Fredrikstad, produsent Gusty Utterdahl
+                2012 | Dancer, Disco Divas and a Disco Duck, City Scene
+                Fredrikstad, Producer: Gusty Utterdahl
               </p>
             </div>
           ) : (

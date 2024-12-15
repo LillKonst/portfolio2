@@ -26,6 +26,23 @@ To get a closer look at this website you can
 1. Clone my github repo: https://github.com/LillKonst/portfolio2 
 2. Open website with the Netlify app using this link: https://lillkonst-portfolio.netlify.app/
 
+## Getting Started
+### Installing
+This is where you list how to get the project started. It typically just includes telling a person to clone the repo and then to install the dependencies e.g.
+
+### Clone the repo:
+git clone https://github.com/LillKonst/portfolio2
+
+### Install the dependencies:
+npm install
+
+###Running
+Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+
+To run the app, run the following commands:
+
+npm run start
+
 ## Contact 
 If you are interessted in more details or want to get in contact with me, you are welcome to sending me an email at konstlillkristine@gmail.com
  

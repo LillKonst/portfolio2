@@ -156,7 +156,7 @@ export default function About() {
               creativity and dedication to this new career path and make a
               meaningful impact in the tech world.
             </p>
-            <div className="flex w-full gap-8 justify-between ">
+            <div className="flex w-full gap-4 xs:gap-8 justify-between ">
               <button
                 onClick={() => scrollToSection("archive")}
                 className="w-full py-4 px-5 flex justify-center items-center bg-customBlue text-customWhite rounded-md gap-2 shadow-lg transition-transform duration-300 ease-out hover:scale-105"

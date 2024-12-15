@@ -12,7 +12,7 @@ export default function BiddingsCard() {
           />
         </div>
       </div>
-      <h4 className="text-customWhite p-2 px-5 text-2xl">HOLIDAZE</h4>
+      <h4 className="text-customWhite p-2 px-5 text-2xl">BIDDINGS</h4>
       <p className="text-customWhite px-5 py-1 flex-grow">
         Auction site where users may post items and bid on other items. Built
         with Vanilla JS and Bootstrap.

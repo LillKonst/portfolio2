@@ -4,18 +4,6 @@ import About from "../../components/about/About";
 import Resume from "../../components/resume/Resume";
 import Contact from "../../components/contact/Contact";
 
-// export default function Home() {
-//   return (
-//     <div className="flex flex-col items-center">
-//       <MainImage />
-//       <Archive />
-//       <About />
-//       <Resume />
-//       <Contact />
-//     </div>
-//   );
-// }
-
 export default function Home() {
   return (
     <div id="mainImg" className="flex flex-col items-center">

@@ -19,8 +19,15 @@ export default function Resume() {
         </div>
         <h3 className="text-md">An extract from my work experience</h3>
         <div className="flex ms-auto xs:-mt-5">
-          <img src={github} alt="The GitHub Logo" className="p-2 w-14" />
-          <img src={linkedin} alt="The LinkedIn Logo" className="p-2 w-14" />
+          <a href="https://github.com/LillKonst" className="cursor-pointer">
+            <img src={github} alt="The GitHub Logo" className="p-2 w-14" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/lill-kristine-konst-787635114/"
+            className="cursor-pointer"
+          >
+            <img src={linkedin} alt="The LinkedIn Logo" className="p-2 w-14" />
+          </a>
         </div>
         <div className="mb-5">
           <h3 className="text-2xl font-semibold mb-3">EDUCATION</h3>

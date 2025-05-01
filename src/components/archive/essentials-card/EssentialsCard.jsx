@@ -7,7 +7,7 @@ export default function EssentailsCard() {
         <div className="rounded-lg w-full aspect-w-5 aspect-h-3 ">
           <img
             src={essentialsImg}
-            alt="holidaze img"
+            alt="a screenshot of the Essentials website"
             className="w-full h-full object-cover rounded-lg"
           />
         </div>

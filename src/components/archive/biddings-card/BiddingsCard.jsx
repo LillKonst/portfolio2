@@ -7,7 +7,7 @@ export default function BiddingsCard() {
         <div className="rounded-lg w-full aspect-w-5 aspect-h-3 ">
           <img
             src={biddingsImg}
-            alt="holidaze img"
+            alt="a screenshot of the Biddings website"
             className="w-full h-full object-cover rounded-lg"
           />
         </div>

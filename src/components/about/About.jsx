@@ -35,7 +35,7 @@ export default function About() {
         <div className="w-full border-b-2 border-customBlue">
           <h2 className="text-6xl">ABOUT</h2>
         </div>
-        <h3 className="text-md">She/her</h3>
+        <h3 className="text-md">About Lill</h3>
         <div className="flex flex-col items-center mt-6" data-aos="slide-up">
           <div className="w-full flex flex-col gap-4">
             <p className="mb-4 xl:text-xl">

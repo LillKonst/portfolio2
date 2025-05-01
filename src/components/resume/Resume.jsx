@@ -49,6 +49,11 @@ export default function Resume() {
               </p>
 
               <p>
+                2025 | Choreographer and Teacher «Layers», Graduation
+                Performance at Høyskolen Kristiania, SHE Heels Company
+              </p>
+              <p>2025 | Dancer, various events, Need Motion</p>
+              <p>
                 2024 | Dancer and choreographer «Layers», She X GentsHub at
                 Scenehuset, SHE Heels Company
               </p>
@@ -115,10 +120,13 @@ export default function Resume() {
                 2023 - Currently | Butikkmedarbeider, Låseansvarlig ved Meny
                 Skøyen
               </p>
-              <p>2021-2022 | Smittesporer i Oslo Kommune</p>
-              <p>2016-2019 | Butikkmedarbeider ved Vita Exclusive</p>
-              <p>2017-2018 | BPA ved Hav AS</p>
-              <p>2014-2016 | Cafe- og kioskmedarbeider ved Quickbar AS</p>
+              <p className="text-red-600">
+                2025 | Frontend Developer and Social Media Manager, Hort1 AS
+              </p>
+              <p>2021-2022 | Smittesporer, Oslo Kommune</p>
+              <p>2016-2019 | Butikkmedarbeider, Vita Exclusive</p>
+              <p>2017-2018 | BPA, Hav AS</p>
+              <p>2014-2016 | Cafe- og kioskmedarbeider, Quickbar AS</p>
             </div>
           )}
         </div>
